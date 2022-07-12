@@ -1,5 +1,5 @@
 .NavBarItems { 
-    background: rgb(66, 201, 235);
+    background: #1d2226;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -12,11 +12,16 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    max-height: 90px;   
 }
-
-.fa-react { 
-    margin-left: 0.5rem; 
-    font-size: 1.6rem; 
+.pfp-img{
+    border-radius: 100px;
+}
+i { 
+    padding: 5px;
 }
 
 .nav-menu { 
@@ -36,8 +41,8 @@
     padding: 0.5rem 1rem;
 }
 .nav-links:hover { 
-    background-color: rgb(74, 145, 228);
-    border-radius: 4px;
+    background-color: #526e88;
+    border-radius: 20px;
     transition: all 0.2s ease-out;
 }
 
@@ -71,7 +76,7 @@
     }
 
     .nav-menu.active { 
-        background: #6668f4;
+        background: #32393f;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -87,14 +92,15 @@
     }
 
     .nav-links:hover { 
-        background-color: #7577fa;
-        border-radius: 0;
+        background-color: #526e88;
+        border-radius: 40px;
+        transition: 400ms;
     }
 
     .navbar-logo {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -35px;
+        left: -2rem;
         transform: translate(25%, 50%);
     }
 
@@ -131,7 +137,6 @@
         background: white;
         color: #6568f4;
         transition: 250ms;
-
     }
 }
 
