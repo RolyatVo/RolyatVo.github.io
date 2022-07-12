@@ -4,15 +4,15 @@ function Icon (props) {
 
     switch (logo) { 
         case "Home": 
-            return <i class="fa-solid fa-house"></i>
+            return <i className="fa-solid fa-house bg-transparent"></i>
         case "About": 
-            return <i class="fa-solid fa-user"></i>
+            return <i className="fa-solid fa-user bg-transparent"></i>
         case "Contact":
-            return <i class="fa-solid fa-address-book"></i>
+            return <i className="fa-solid fa-address-book bg-transparent"></i>
         case "Work Experience": 
-            return <i class="fa-solid fa-briefcase"></i>
+            return <i className="fa-solid fa-briefcase bg-transparent"></i>
         case "Projects": 
-            return <i class="fa-solid fa-diagram-project"></i>
+            return <i className="fa-solid fa-diagram-project bg-transparent"></i>
         default: 
             return null
     }
