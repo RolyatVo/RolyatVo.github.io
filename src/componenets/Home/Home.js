@@ -2,7 +2,7 @@ import TypeAnimation from 'react-type-animation'
 import Logo from "./Logo"
 function Home (props) { 
     return ( 
-        <div className="home-page-container">
+        <div className="home-page-container flex-auto">
             <div className="h-max w-max absolute left-[8%] top-[20%]">
                 <h1 className="text-8xl font-bold text-slate-200 leading-normal  bg-transparent">Hey! 👋<br></br> I'm Taylor Vo</h1>
 
