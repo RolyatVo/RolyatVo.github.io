@@ -1,9 +1,12 @@
+import Resumepng from "../../imgs/Taylor_Vo_s_Resume-1.png"
 import Resumepdf from "../../imgs/Taylor_Vo_s_Resume.pdf"
-import { Document } from "react-pdf";
 function Resume (props) { 
     return ( 
-        <div className="Resume">
-            
+        <div className="Resume px-[20%] flex justify-center">
+            <a download={Resumepdf} href={Resumepdf} className="">
+                <img alt="resume" className="h-[1200px] pt-5" src={Resumepng}>
+                </img>
+            </a>
         </div>
         ); 
 }
