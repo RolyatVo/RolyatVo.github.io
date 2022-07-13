@@ -1,5 +1,6 @@
 import TypeAnimation from 'react-type-animation'
 import Skills from './Skills';
+import Tools from './Tools';
 function About (props) { 
     return ( 
         <div className="About pl-[10%] pr-[10%] pt-[2%]" >
@@ -23,6 +24,7 @@ function About (props) {
 
         </div>
         <Skills/>
+        <Tools/>
 
         </div>
         ); 

@@ -9,7 +9,7 @@ function Icon (props) {
             return <i className="fa-solid fa-user bg-transparent"></i>
         case "Contact":
             return <i className="fa-solid fa-address-book bg-transparent"></i>
-        case "Work Experience": 
+        case "Resume": 
             return <i className="fa-solid fa-briefcase bg-transparent"></i>
         case "Projects": 
             return <i className="fa-solid fa-diagram-project bg-transparent"></i>
