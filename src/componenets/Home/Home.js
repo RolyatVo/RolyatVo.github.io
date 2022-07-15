@@ -1,5 +1,6 @@
 import TypeAnimation from 'react-type-animation'
 import Logo from "./Logo"
+import Footer from './Footer/Footer';
 function Home (props) { 
     return ( 
         <div className="home-page-container flex-auto">
@@ -21,6 +22,7 @@ function Home (props) {
                 /> 
             </div>
             <Logo/> 
+            <Footer/>
         </div> 
         ); 
 }
