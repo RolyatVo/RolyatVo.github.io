@@ -13,7 +13,7 @@ class NavBar extends React.Component {
 
     render() { 
         return ( 
-            <nav className="NavBarItems">
+            <nav className="NavBarItems z-1 bg-transparent">
                 <h1 className="navbar-logo"><img className="pfp-img" alt="Pfp" src={pfp}></img></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

@@ -7,7 +7,7 @@ import Intelijlogo from "../../imgs/intelijlogo.png"
 
 function Tools (props) { 
     return (
-        <div className="Tools pt-[10%] pb-[10%]">
+        <div className="Tools pt-[10%] pb-[10%] backdrop-blur-3xl bg-[#21272c]/40">
             <h1 className="text-center text-slate-200 font-bold text-7xl">Tools</h1>
             <div className="grid grid-cols-5 gap-7 gap-y-[7%] pt-[5%]">
                 <Card title="VS Code" src={Codelogo}/> 

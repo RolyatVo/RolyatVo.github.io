@@ -6,14 +6,18 @@ import Contact from "./Contact/Contact"
 import Projects from "./Projects/Projects"
 import Resume from "./Resume/Resume"
 import Home from "./Home/Home"
-import '../App.css';
+import '../App.scss';
+import BackgroundParticles from './BackgroundParticle';
 import { Route, Routes } from "react-router-dom"
+import Footer from './Footer/Footer';
+
 
 function App() {
  return (
     <>
-      <NavBar />
-      <div className='App'>
+      <BackgroundParticles/>
+      <NavBar/>
+      <div className='App bg-transparent'>
         <Routes>
           <Route path='/' element={<Home />} ></Route>
           <Route path='/about' element={<About />} ></Route>
@@ -22,6 +26,7 @@ function App() {
           <Route path='/projects' element={<Projects />} ></Route>
         </Routes>
       </div>
+      <Footer/>
     </>
   );
 }

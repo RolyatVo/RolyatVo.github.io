@@ -1,11 +1,12 @@
 import TypeAnimation from 'react-type-animation'
 import Logo from "./Logo"
-import Footer from './Footer/Footer';
+
 function Home (props) { 
-    return ( 
+    return (
+        <>
         <div className="home-page-container flex-auto">
             <div className="h-max w-max absolute left-[8%] top-[20%]">
-                <h1 className="text-8xl font-bold text-slate-200 leading-normal  bg-transparent">Hey! 👋<br></br> I'm Taylor Vo</h1>
+                <h1 className="text-8xl font-bold text-slate-200 leading-normal">Hey! 👋<br></br> I'm Taylor Vo</h1>
 
                 <TypeAnimation
                     sequence={[
@@ -22,8 +23,8 @@ function Home (props) {
                 /> 
             </div>
             <Logo/> 
-            <Footer/>
         </div> 
+        </> 
         ); 
 }
 
