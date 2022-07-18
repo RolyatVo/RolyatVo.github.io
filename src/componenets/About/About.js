@@ -18,7 +18,7 @@ function About (props) {
             <div className='about-paragraphs font-serif pt-10 text-2xl mx-5 font-semibold text-slate-300 w-[100%] leading-relaxed text-left'>
                 <p>Hello! First off, I want to thank you for your time visiting my website!<br></br></p><br></br>
                 <p>
-                    I'm a very ambitious college graduate looking for my first job in a established software company. I'm hoping to learn and to work on the latest technologies that can help everyone.
+                    I'm a very ambitious college graduate looking for my first job in an established software company. I'm hoping to learn and to work on the latest technologies that can help everyone.
                     I built this website to show you what I can do and how much I enjoy doing it!
                 </p>
                 <p> 
