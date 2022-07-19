@@ -14,7 +14,7 @@ function About (props) {
                 cursor={true}
                 className="font-bold text-8xl text-center text-slate-200"
                 />
-        <div className='about-section backdrop-blur-3xl bg-[#21272c]/40'>
+        <div className='about-section bg-[#21272c]/40'>
             <div className='about-paragraphs font-serif pt-10 text-2xl mx-5 font-semibold text-slate-300 w-[100%] leading-relaxed text-left'>
                 <p>Hello! First off, I want to thank you for your time visiting my website!<br></br></p><br></br>
                 <p>

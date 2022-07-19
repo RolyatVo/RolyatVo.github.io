@@ -4,7 +4,7 @@ function PCard (props) {
     let title = props.title !== "" ? props.title : "Project heading";
     let desc = props.desc !=="" ? props.desc : "Some quick example text to build on the card title and make up the bulk of the card's content."
     return (
-        <Card className="shadow-lg shadow-black p-3 transition ease-in-out delay-100hover:-translate-y-1 hover:scale-110 backdrop-blur-3xl bg-[#21272c]/40" style={{ width: '24rem' }}>
+        <Card className="shadow-lg shadow-black p-3 transition ease-in-out delay-100hover:-translate-y-1 hover:scale-110 bg-[#21272c]/40" style={{ width: '24rem' }}>
             <div className="flex justify-center">
                 <Card.Img className="max-h-[15rem] "variant="top" src={props.src} />
             </div>

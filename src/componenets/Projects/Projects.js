@@ -10,7 +10,7 @@ import TypeAnimation from "react-type-animation";
 function Projects (props) { 
     return (
         <div>
-            <div className="About flex justify-center pt-[2%] z-[1] backdrop-blur-3xl bg-[#21272c]/40" >
+            <div className="About flex justify-center pt-[2%] z-[1] bg-[#21272c]/40" >
                 <TypeAnimation
                     sequence={[
                         'Most Recent Works', 2000,
@@ -21,7 +21,7 @@ function Projects (props) {
                     className="font-bold text-8xl text-center text-slate-200"
                     />
                 </div>
-                <h1 className="flex justify-center text-slate-200 text-2xl pt-2 backdrop-blur-3xl bg-[#21272c]/40">Some of the projects I've worked on</h1>
+                <h1 className="flex justify-center text-slate-200 text-2xl pt-2 bg-[#21272c]/40">Some of the projects I've worked on</h1>
             <div className="flex justify-center pt-[2%] pb-[10%]">
                 <div className="grid grid-cols-3 gap-[5rem]">
                     <PCard 

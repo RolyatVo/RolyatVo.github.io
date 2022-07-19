@@ -13,7 +13,7 @@ function Skills (props) {
     return (
         <div className="Skills pt-[10%] ">
             <h1 className="text-center text-slate-200 font-bold text-7xl backdrop-blur-3xl bg-[#21272c]/40">Skills</h1>
-            <div className="grid grid-cols-5 gap-7 gap-y-[7%] pt-[5%] backdrop-blur-3xl bg-[#21272c]/40">
+            <div className="grid grid-cols-5 gap-7 gap-y-[7%] pt-[5%] bg-[#21272c]/40">
                 <Card title="Python" src={Pythonlogo}/>
                 <Card title="Java" src={Javalogo}/>
                 <Card title="JavaScript" src={JavaScriptlogo} />
