@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.eb5d98f0.css",
-    "main.js": "/static/js/main.e77ccd12.js",
+    "main.js": "/static/js/main.38795705.js",
     "static/media/unit.JPG": "/static/media/unit.699f9685e8b4bf9b4329.JPG",
     "static/media/bg2.png": "/static/media/bg2.d76a1bb71ab5b2f40265.png",
     "static/media/home-logo.png": "/static/media/home-logo.a3b29c460449345ca4ad.png",
     "static/media/LINUX-LOGO.png": "/static/media/LINUX-LOGO.473b5b1180d740ee9dbd.png",
     "static/media/macoslogo.png": "/static/media/macoslogo.28c08cdf50d3c3fe9000.png",
-    "static/media/Taylor_Vo_s_Resume-1.png": "/static/media/Taylor_Vo_s_Resume-1.f56b51ef8b938e87d34c.png",
+    "static/media/Taylor_Vo_s_Resume-1.png": "/static/media/Taylor_Vo_s_Resume-1.662650d738532b8d8967.png",
     "static/media/reactjs-icon.png": "/static/media/reactjs-icon.81ed438b18e24116794d.png",
     "static/media/electronjs-logo.png": "/static/media/electronjs-logo.4c04c5208e32bcca89b3.png",
     "static/media/CXM_screenshot.png": "/static/media/CXM_screenshot.c1598e445317efb6d94f.png",
     "static/media/python-logo.png": "/static/media/python-logo.9431343c453e999f63a7.png",
     "static/media/vscodelogo.png": "/static/media/vscodelogo.19edc3fbac1c451f289d.png",
     "static/media/Pfp.png": "/static/media/Pfp.e4bb4657a95ba012f444.png",
-    "static/media/Taylor_Vo_s_Resume.pdf": "/static/media/Taylor_Vo_s_Resume.3823500ee9004c444d79.pdf",
+    "static/media/Taylor_Vo_s_Resume.pdf": "/static/media/Taylor_Vo_s_Resume.7385ea77aa6fc8a38413.pdf",
     "static/media/intelijlogo.png": "/static/media/intelijlogo.bdf99f351373ca02d029.png",
     "static/media/cpp-logo.png": "/static/media/cpp-logo.fc461cc8303a38559c80.png",
     "static/media/Tailwind_CSS_Logo.svg.png": "/static/media/Tailwind_CSS_Logo.svg.9c2e5bcf4f97d73e438e.png",
@@ -27,10 +27,10 @@
     "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.eb5d98f0.css.map": "/static/css/main.eb5d98f0.css.map",
-    "main.e77ccd12.js.map": "/static/js/main.e77ccd12.js.map"
+    "main.38795705.js.map": "/static/js/main.38795705.js.map"
   },
   "entrypoints": [
     "static/css/main.eb5d98f0.css",
-    "static/js/main.e77ccd12.js"
+    "static/js/main.38795705.js"
   ]
 }
